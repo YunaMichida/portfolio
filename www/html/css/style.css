@@ -131,13 +131,31 @@ img {
   margin: 100px 0;
 }
 /*--------------------------------
+ WORK-PAGE
+------------------------------- */
+.work-pagetop {
+margin-top: 20%;
+}
+.work-page-title {
+text-align: center;
+}
+.work-content img{
+display: flex;
+justify-content: space-between;
+width: 600px;
+margin: 10%; 
+ 
+}
+.work-comment {
+  text-align: center;
+}
+/*--------------------------------
  SKILL
 ------------------------------- */
 .skill-list {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 20%;
+  
+  margin: 20%;
 }
 .skill-item {
   display: flex;
