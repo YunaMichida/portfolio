@@ -141,7 +141,7 @@ text-align: center;
 }
 .work-content img{
 display: flex;
-justify-content: space-between;
+
 width: 600px;
 margin: 10%; 
  
@@ -153,8 +153,9 @@ margin: 10%;
  SKILL
 ------------------------------- */
 .skill-list {
+  display: flex;
   flex-wrap: wrap;
-  
+  justify-content: space-between;
   margin: 20%;
 }
 .skill-item {
