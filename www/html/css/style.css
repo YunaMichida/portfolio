@@ -134,11 +134,12 @@ img {
  WORK-PAGE
 ------------------------------- */
 article {
-  width: 78%;
+  width: 100%;
   text-align: center;
+  padding: 138px 0 50px;
 }
 .work-pagetop {
-margin-top: 20%;
+
 }
 article .work-content {
 margin: 10%; 
