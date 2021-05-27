@@ -96,7 +96,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 85vh;
+  padding-bottom: auto;
   text-align: center;
 }
 .main-visual-inner {
@@ -150,7 +150,7 @@ margin: 10%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 20%;
+  margin: 0 20%;
 }
 .skill-item {
   display: flex;
