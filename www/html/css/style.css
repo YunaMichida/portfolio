@@ -30,10 +30,8 @@ img {
 /*--------------------------------
  大きな背景画像
 ------------------------------- */
-.big-bg {
-  background-size: 85vh;
-  background-position: center top;
-  background-repeat: no-repeat;  
+.big-bg　img {
+  vertical-align: bottom;
 }
 /*--------------------------------
  見出し
@@ -98,6 +96,7 @@ img {
   justify-content: center;
   padding-bottom: auto;
   text-align: center;
+  padding: 98px 0 0 10px;
 }
 .main-visual-inner {
   padding: 0 40px;
