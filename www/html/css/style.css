@@ -203,18 +203,22 @@ article {
 .profile-img img {
   border-radius: 50%;
 }
+.profile-about-content {
+  margin-right: 20%;
+}
 .profile-about-item {
   display: flex;
   margin-bottom: 24px;
   text-align: left;
 }
 .profile-about-head {
+  font-weight: bold;
   flex: 0 0 30%;
-  text-align: right;
+  text-align: left;
 }
 .profile-about-body {
   margin-right: auto;
-  padding-left: 20px;
+  padding-right: 20px;
   flex: 0 1 100%;
   width: 1px;
 }
