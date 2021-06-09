@@ -8,9 +8,6 @@ html {
 a {
     text-decoration: none;
 }
-img {
-    width: 100%;
-}
 /*  ヘッダー
 --------------------------*/
 .header-logo {
@@ -58,8 +55,15 @@ nav li a {
 }   
 /*メインヴィジュアル
 -----------------------------------*/
-
-
+.bg-img {
+    width: 100%;
+    position: relative;
+}
+.bg-btn {z
+    position: fixed;
+    top: 330px;
+    left: 40px;
+}
 /*モバイル版
 ーーーーーーーーーーーーーーーーーーーーー*/
 @media (max-width:　600px) {
@@ -71,6 +75,3 @@ nav li a {
         flex-direction: column;
         align-items: center;
     }
-.bg-img{
-width: 100%;
-}
